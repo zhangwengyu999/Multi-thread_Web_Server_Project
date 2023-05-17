@@ -1,0 +1,24 @@
+<html> 
+<head> 
+    <link rel="icon" href="data:,"> 
+<title>Hello World Test Page</title> 
+</head> 
+<body> 
+    <h1>HELLO, WORLD!</h1>
+    <p>This is <b>helloworld.html file</b> with <b>lenna.png image</b></p>
+
+    <img id="image" src="" alt="lenna.png" width="128" height="128">
+    <br>
+    <p>Click the button to go back to the previous page.</p>
+    <button onclick="window.history.back();">Back</button>
+    <br>
+    <br>
+    COMP2322 Computer Networking<br>
+    Project: Multi-thread Web Server<br>
+</body> 
+<script>
+    window.onload = function() {
+        document.getElementById('image').src = './lenna.png';
+    }
+</script>
+</html>
