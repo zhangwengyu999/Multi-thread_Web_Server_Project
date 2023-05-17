@@ -25,20 +25,11 @@ In this project, I have designed and implemented a Multi-thread Web Server by so
 
 ### Demonstration
 
-<center>
-<div style="overflow: hidden;justify-content:space-around;">
-    <div style="max-width: 70%;display: inline-block;"><img src="img/21.png"></div>
-</div>
-</center>
+<img width="80%" src="img/21.png">
 
 ### Overall Design
 
-<center>
-<div style="overflow: hidden;justify-content:space-around;">
-    <div style="max-width: 35%;display: inline-block;"><img src="img/1.png"></div>
-    <div style="max-width: 27%;display: inline-block;"><img src="img/2.png"></div>
-</div>
-</center>
+<img width="45%" src="img/1.png"> <img width="35%" src="img/2.png">
 
 **HTTPServe** class is the main object of the Web Server. It maintains a list of fields, including server **host**, server **port**, **Lock**, and the **log file**. It also contains a list of methods, including methods mapped to **GET** and **HEAD** request handler, **Not Found** and **Bad Request** Handler, write to log method, as well as other utility methods.
 
@@ -46,11 +37,7 @@ In this project, I have designed and implemented a Multi-thread Web Server by so
 
 ### Implementation
 
-<center>
-<div style="overflow: hidden;justify-content:space-around;">
-    <div style="max-width: 100%;display: inline-block;"><img src="img/7.png"></div>
-</div>
-</center>
+<img width="100%" src="img/7.png">
 
 ---
 
